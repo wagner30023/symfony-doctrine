@@ -1,0 +1,10 @@
+{% extends "base.html.twig" %}
+{% block body %}
+	<h1>
+		Hello Word
+	</h1>
+
+    {% for key, list in lista %}
+        {{key}} - {{list}}<br>
+    {% endfor %}
+{% endblock %}
